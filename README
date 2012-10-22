@@ -1,0 +1,7 @@
+AppleHDA Sleep Audio Fix
+
+There is a problem with the AppleHDA driver for ALC269 and others with EAPD existence in their codec at either Headphone or Speaker, which is after sleep there is no audio coming from the device because External Amplifier is not enabled by AppleHDA.
+
+	So, there is a workaround for this problem which I got from the meklort's netbook installer but it was patched for older versions of AppleHDA in the open source IOAudioFamily kext and its not working now. I've used the idea from there and implemented my way of fixing the problem.
+
+Now, I have successfully implemented the fix for this audio problem after sleep. My fix has been applied to most recent version of IOAudioFamily and its working well to me in ALC269. I've made changes to two files which is AudioDevice and AudioEngine for fixing this.
