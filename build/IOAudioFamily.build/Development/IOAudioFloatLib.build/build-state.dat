@@ -1,0 +1,1370 @@
+TIOAudioFloatLib
+v5
+r1
+cCheck dependencies
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a" normal x86_64
+cLibtool "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a" normal i386
+cCreateUniversalBinary "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily-" FIXED/build/Development/libIOAudioFloatLib.a normal "x86_64 i386"
+
+N/System/Library/Frameworks/Kernel.framework/Headers/Availability.h
+c0000000050718CF90000000000001B50
+t1349618937
+s6992
+
+N/System/Library/Frameworks/Kernel.framework/Headers/AvailabilityInternal.h
+c0000000050718CF9000000000001E923
+t1349618937
+s125219
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOBufferMemoryDescriptor.h
+c0000000050718CF9000000000000357B
+t1349618937
+s13691
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IODeviceMemory.h
+c0000000050718CF90000000000001287
+t1349618937
+s4743
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOInterrupts.h
+c0000000050718CF900000000000007AA
+t1349618937
+s1962
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOKitDebug.h
+c0000000050718CF900000000000012D3
+t1349618937
+s4819
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLocks.h
+c0000000050718CF900000000000045C6
+t1349618937
+s17862
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMemoryDescriptor.h
+c0000000050718CF9000000000000BF23
+t1349618937
+s48931
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMessage.h
+c0000000050718CF9000000000000250D
+t1349618937
+s9485
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IONotifier.h
+c0000000050718CF90000000000000CC1
+t1349618937
+s3265
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h
+c0000000050718CF90000000000010602
+t1349618937
+s67074
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOReturn.h
+c0000000050718CF90000000000001D9C
+t1349618937
+s7580
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h
+c0000000050718CF9000000000001F776
+t1349618937
+s128886
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOServicePM.h
+c0000000050718CF90000000000000652
+t1349618937
+s1618
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOSubMemoryDescriptor.h
+c0000000050718CF900000000000011E9
+t1349618937
+s4585
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOTypes.h
+c0000000050718CF90000000000001759
+t1349618937
+s5977
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/assert.h
+c0000000050718CF900000000000006CC
+t1349618937
+s1740
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/pwr_mgt/IOPM.h
+c0000000050718CF90000000000008B53
+t1349618937
+s35667
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/pwr_mgt/IOPMpowerState.h
+c0000000050718CF90000000000000EB0
+t1349618937
+s3760
+
+N/System/Library/Frameworks/Kernel.framework/Headers/IOKit/system.h
+c0000000050718CF9000000000000085B
+t1349618937
+s2139
+
+N/System/Library/Frameworks/Kernel.framework/Headers/TargetConditionals.h
+c0000000050718CCC00000000000031E9
+t1349618892
+s12777
+
+N/System/Library/Frameworks/Kernel.framework/Headers/device/device_types.h
+c0000000050718CF90000000000000F5E
+t1349618937
+s3934
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/_types.h
+c0000000050718CF90000000000001197
+t1349618937
+s4503
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/eflags.h
+c0000000050718CF90000000000000E1E
+t1349618937
+s3614
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/endian.h
+c0000000050718CF90000000000001031
+t1349618937
+s4145
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/locks.h
+c0000000050718CF90000000000000666
+t1349618937
+s1638
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/machine_routines.h
+c0000000050718CF900000000000008A0
+t1349618937
+s2208
+
+N/System/Library/Frameworks/Kernel.framework/Headers/i386/types.h
+c0000000050718CF900000000000018BD
+t1349618937
+s6333
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/assert.h
+c0000000050718CF90000000000000C13
+t1349618937
+s3091
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/clock.h
+c0000000050718CF90000000000000C0C
+t1349618937
+s3084
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/debug.h
+c0000000050718CF9000000000000104A
+t1349618937
+s4170
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/ipc_mig.h
+c0000000050718CF900000000000008AA
+t1349618937
+s2218
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/kern_types.h
+c0000000050718CF900000000000009EA
+t1349618937
+s2538
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/locks.h
+c0000000050718CF90000000000001B86
+t1349618937
+s7046
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/macro_help.h
+c0000000050718CF90000000000000B23
+t1349618937
+s2851
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/queue.h
+c0000000050718CF90000000000003B1C
+t1349618937
+s15132
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/sched_prim.h
+c0000000050718CF9000000000000109A
+t1349618937
+s4250
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/task.h
+c0000000050718CF90000000000001007
+t1349618937
+s4103
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/thread.h
+c0000000050718CF900000000000013A4
+t1349618937
+s5028
+
+N/System/Library/Frameworks/Kernel.framework/Headers/kern/thread_call.h
+c0000000050718CF90000000000002522
+t1349618937
+s9506
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/OSBase.h
+c0000000050718CF9000000000000063D
+t1349618937
+s1597
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+c0000000050718CF90000000000002938
+t1349618937
+s10552
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/OSReturn.h
+c0000000050718CF9000000000000189B
+t1349618937
+s6299
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/OSTypes.h
+c0000000050718CF90000000000000E59
+t1349618937
+s3673
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/_OSByteOrder.h
+c0000000050718CF900000000000010FF
+t1349618937
+s4351
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSArray.h
+c0000000050718CF90000000000005BEE
+t1349618937
+s23534
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSBoolean.h
+c0000000050718CF90000000000001E3A
+t1349618937
+s7738
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSCollection.h
+c0000000050718CF90000000000003885
+t1349618937
+s14469
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSCollectionIterator.h
+c0000000050718CF9000000000000191A
+t1349618937
+s6426
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h
+c0000000050718CF9000000000000079F
+t1349618937
+s1951
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSData.h
+c0000000050718CF900000000000058EA
+t1349618937
+s22762
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSDictionary.h
+c0000000050718CF9000000000000791E
+t1349618937
+s31006
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSIterator.h
+c0000000050718CF900000000000010F2
+t1349618937
+s4338
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h
+c0000000050718CF90000000000010F15
+t1349618937
+s69397
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSNumber.h
+c0000000050718CF90000000000003218
+t1349618937
+s12824
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h
+c0000000050718CF90000000000003950
+t1349618937
+s14672
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSOrderedSet.h
+c0000000050718CF90000000000006595
+t1349618937
+s26005
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSSerialize.h
+c0000000050718CF90000000000002633
+t1349618937
+s9779
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSSet.h
+c0000000050718CF900000000000063F0
+t1349618937
+s25584
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSString.h
+c0000000050718CF9000000000000345F
+t1349618937
+s13407
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSSymbol.h
+c0000000050718CF90000000000002F5E
+t1349618937
+s12126
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSUnserialize.h
+c0000000050718CF90000000000000A1E
+t1349618937
+s2590
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/i386/OSByteOrder.h
+c0000000050718CF90000000000000B8D
+t1349618937
+s2957
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/i386/_OSByteOrder.h
+c0000000050718CF90000000000000AA7
+t1349618937
+s2727
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/libkern.h
+c0000000050718CF90000000000001C53
+t1349618937
+s7251
+
+N/System/Library/Frameworks/Kernel.framework/Headers/libkern/locks.h
+c0000000050718CF900000000000005D7
+t1349618937
+s1495
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/boolean.h
+c0000000050718CF90000000000000B08
+t1349618937
+s2824
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/clock.h
+c0000000050718CF9000000000000147C
+t1349618937
+s5244
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/clock_priv.h
+c0000000050718CF90000000000001110
+t1349618937
+s4368
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/clock_reply_server.h
+c0000000050718CF90000000000000E53
+t1349618937
+s3667
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/clock_types.h
+c0000000050718CF90000000000001019
+t1349618937
+s4121
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/error.h
+c0000000050718CF90000000000000F22
+t1349618937
+s3874
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/exc_server.h
+c0000000050718CF900000000000019A7
+t1349618937
+s6567
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/exception_types.h
+c0000000050718CF90000000000001913
+t1349618937
+s6419
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/host_info.h
+c0000000050718CF90000000000001FD7
+t1349618937
+s8151
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/host_notify.h
+c0000000050718CF90000000000000608
+t1349618937
+s1544
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/host_priv.h
+c0000000050718CF90000000000006CFA
+t1349618937
+s27898
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/host_security.h
+c0000000050718CF9000000000000152D
+t1349618937
+s5421
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/host_special_ports.h
+c0000000050718CF90000000000001C61
+t1349618937
+s7265
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/_structs.h
+c0000000050718CF900000000000062D1
+t1349618937
+s25297
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/boolean.h
+c0000000050718CF90000000000000A1C
+t1349618937
+s2588
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/exception.h
+c0000000050718CF900000000000010EE
+t1349618937
+s4334
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/fp_reg.h
+c0000000050718CF900000000000011B3
+t1349618937
+s4531
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/kern_return.h
+c0000000050718CF90000000000000AAC
+t1349618937
+s2732
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/processor_info.h
+c0000000050718CF9000000000000061C
+t1349618937
+s1564
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_state.h
+c0000000050718CF900000000000006AC
+t1349618937
+s1708
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/thread_status.h
+c0000000050718CF90000000000002745
+t1349618937
+s10053
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_param.h
+c0000000050718CF90000000000001727
+t1349618937
+s5927
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/i386/vm_types.h
+c0000000050718CF90000000000001266
+t1349618937
+s4710
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/kern_return.h
+c0000000050718CF900000000000023B2
+t1349618937
+s9138
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/kmod.h
+c0000000050718CF90000000000001A2E
+t1349618937
+s6702
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/lock_set.h
+c0000000050718CF90000000000001B1A
+t1349618937
+s6938
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_exc_server.h
+c0000000050718CF90000000000001ABE
+t1349618937
+s6846
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_host.h
+c0000000050718CF90000000000005294
+t1349618937
+s21140
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_interface.h
+c0000000050718CF90000000000000782
+t1349618937
+s1922
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_port.h
+c0000000050718CF900000000000077E0
+t1349618937
+s30688
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_time.h
+c0000000050718CF900000000000006C3
+t1349618937
+s1731
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mach_types.h
+c0000000050718CF90000000000002059
+t1349618937
+s8281
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine.h
+c0000000050718CF90000000000003085
+t1349618937
+s12421
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/boolean.h
+c0000000050718CF9000000000000064E
+t1349618937
+s1614
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/exception.h
+c0000000050718CF90000000000000658
+t1349618937
+s1624
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/kern_return.h
+c0000000050718CF90000000000000662
+t1349618937
+s1634
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/processor_info.h
+c0000000050718CF90000000000000671
+t1349618937
+s1649
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_state.h
+c0000000050718CF90000000000000667
+t1349618937
+s1639
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/thread_status.h
+c0000000050718CF9000000000000066C
+t1349618937
+s1644
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_param.h
+c0000000050718CF90000000000000653
+t1349618937
+s1619
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/machine/vm_types.h
+c0000000050718CF90000000000000653
+t1349618937
+s1619
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/memory_object_types.h
+c0000000050718CF90000000000003997
+t1349618937
+s14743
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/message.h
+c0000000050718CF90000000000006311
+t1349618937
+s25361
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mig.h
+c0000000050718CF9000000000000150D
+t1349618937
+s5389
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/mig_errors.h
+c0000000050718CF90000000000001192
+t1349618937
+s4498
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/ndr.h
+c0000000050718CF900000000000019EC
+t1349618937
+s6636
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/notify.h
+c0000000050718CF900000000000013EC
+t1349618937
+s5100
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/notify_server.h
+c0000000050718CF90000000000001AB5
+t1349618937
+s6837
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/policy.h
+c0000000050718CF90000000000001BCF
+t1349618937
+s7119
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/port.h
+c0000000050718CF90000000000003264
+t1349618937
+s12900
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/processor.h
+c0000000050718CF90000000000001E9E
+t1349618937
+s7838
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/processor_info.h
+c0000000050718CF900000000000016A8
+t1349618937
+s5800
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/processor_set.h
+c0000000050718CF90000000000003005
+t1349618937
+s12293
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/semaphore.h
+c0000000050718CF900000000000009EC
+t1349618937
+s2540
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/std_types.h
+c0000000050718CF90000000000000A85
+t1349618937
+s2693
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/sync_policy.h
+c0000000050718CF90000000000000704
+t1349618937
+s1796
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/task.h
+c0000000050718CF90000000000008BC5
+t1349618937
+s35781
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/task_info.h
+c0000000050718CF900000000000033B3
+t1349618937
+s13235
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/task_policy.h
+c0000000050718CF900000000000010C1
+t1349618937
+s4289
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/task_special_ports.h
+c0000000050718CF90000000000001072
+t1349618937
+s4210
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_act.h
+c0000000050718CF90000000000006436
+t1349618937
+s25654
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_info.h
+c0000000050718CF90000000000001566
+t1349618937
+s5478
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_policy.h
+c0000000050718CF90000000000001CDD
+t1349618937
+s7389
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_special_ports.h
+c0000000050718CF90000000000000C35
+t1349618937
+s3125
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/thread_status.h
+c0000000050718CF90000000000000DA4
+t1349618937
+s3492
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/time_value.h
+c0000000050718CF90000000000000D00
+t1349618937
+s3328
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_attributes.h
+c0000000050718CF90000000000000E52
+t1349618937
+s3666
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_behavior.h
+c0000000050718CF90000000000000B62
+t1349618937
+s2914
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_inherit.h
+c0000000050718CF90000000000000C84
+t1349618937
+s3204
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_map.h
+c0000000050718CF9000000000000721E
+t1349618937
+s29214
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_param.h
+c0000000050718CF90000000000002223
+t1349618937
+s8739
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_prot.h
+c0000000050718CF90000000000001211
+t1349618937
+s4625
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_purgable.h
+c0000000050718CF900000000000016F0
+t1349618937
+s5872
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_region.h
+c0000000050718CF90000000000002DFD
+t1349618937
+s11773
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_statistics.h
+c0000000050718CF90000000000003238
+t1349618937
+s12856
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_sync.h
+c0000000050718CF90000000000000BD5
+t1349618937
+s3029
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach/vm_types.h
+c0000000050718CF90000000000000C02
+t1349618937
+s3074
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/hash_info.h
+c0000000050718CF90000000000000AE6
+t1349618937
+s2790
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/ipc_info.h
+c0000000050718CF90000000000000F87
+t1349618937
+s3975
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/lockgroup_info.h
+c0000000050718CF900000000000009BB
+t1349618937
+s2491
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/mach_debug_types.h
+c0000000050718CF90000000000000B14
+t1349618937
+s2836
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/page_info.h
+c0000000050718CF90000000000000A18
+t1349618937
+s2584
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/vm_info.h
+c0000000050718CF900000000000016C7
+t1349618937
+s5831
+
+N/System/Library/Frameworks/Kernel.framework/Headers/mach_debug/zone_info.h
+c0000000050718CF900000000000013E9
+t1349618937
+s5097
+
+N/System/Library/Frameworks/Kernel.framework/Headers/machine/_types.h
+c0000000050718CF9000000000000063B
+t1349618937
+s1595
+
+N/System/Library/Frameworks/Kernel.framework/Headers/machine/endian.h
+c0000000050718CF9000000000000067D
+t1349618937
+s1661
+
+N/System/Library/Frameworks/Kernel.framework/Headers/machine/locks.h
+c0000000050718CF9000000000000062B
+t1349618937
+s1579
+
+N/System/Library/Frameworks/Kernel.framework/Headers/machine/machine_routines.h
+c0000000050718CF9000000000000065E
+t1349618937
+s1630
+
+N/System/Library/Frameworks/Kernel.framework/Headers/machine/types.h
+c0000000050718CF90000000000000678
+t1349618937
+s1656
+
+N/System/Library/Frameworks/Kernel.framework/Headers/pexpert/boot.h
+c0000000050718CF900000000000005AA
+t1349618937
+s1450
+
+N/System/Library/Frameworks/Kernel.framework/Headers/pexpert/i386/boot.h
+c0000000050718CF90000000000001628
+t1349618937
+s5672
+
+N/System/Library/Frameworks/Kernel.framework/Headers/pexpert/machine/boot.h
+c0000000050718CF9000000000000064A
+t1349618937
+s1610
+
+N/System/Library/Frameworks/Kernel.framework/Headers/pexpert/pexpert.h
+c0000000050718CF90000000000001ECE
+t1349618937
+s7886
+
+N/System/Library/Frameworks/Kernel.framework/Headers/stdarg.h
+c0000000050718CF900000000000007CD
+t1349618937
+s1997
+
+N/System/Library/Frameworks/Kernel.framework/Headers/stdbool.h
+c0000000050718CF900000000000006D8
+t1349618937
+s1752
+
+N/System/Library/Frameworks/Kernel.framework/Headers/stdint.h
+c0000000050718CF90000000000001A29
+t1349618937
+s6697
+
+N/System/Library/Frameworks/Kernel.framework/Headers/string.h
+c0000000050718CF90000000000000C73
+t1349618937
+s3187
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/_endian.h
+c0000000050718CF9000000000000165C
+t1349618937
+s5724
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/_structs.h
+c0000000050718CF90000000000002AAE
+t1349618937
+s10926
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/_types.h
+c0000000050718CF900000000000018AC
+t1349618937
+s6316
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/appleapiopts.h
+c0000000050718CF90000000000000816
+t1349618937
+s2070
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/cdefs.h
+c0000000050718CF90000000000004975
+t1349618937
+s18805
+
+N/System/Library/Frameworks/Kernel.framework/Headers/sys/types.h
+c0000000050718CFA0000000000002905
+t1349618938
+s10501
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioDebug.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngine.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+c00000000000000000000000000000000
+t2
+s0
+i"IOAudioDebug.h"
+i"IOAudioEngine.h"
+i"IOAudioStream.h"
+i"IOAudioTypes.h"
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioStream.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioTypes.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioFloatLib.LinkFileList
+c000000005071B87000000000000001F6
+t1349630064
+s502
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioFloatLib.LinkFileList
+c000000005071B87000000000000001FC
+t1349630064
+s508
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLib.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLibX86.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioEngineMixer.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLib.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLibX86.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioEngineMixer.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioDebug.h
+c000000004E4C40E7000000000000081A
+t1313620199
+s2074
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngine.h
+c00000000507120AF000000000000AFBD
+t1349591215
+s44989
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+c000000004B577EF90000000000000897
+t1264025337
+s2199
+i"IOAudioDebug.h"
+i"IOAudioEngine.h"
+i"IOAudioStream.h"
+i"IOAudioTypes.h"
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioStream.h
+c000000004E8B7F580000000000003393
+t1317764952
+s13203
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioTypes.h
+c000000005057683C00000000000061E7
+t1347905596
+s25063
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+c000000004ED81B270000000000002022
+t1322785575
+s8226
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.h
+c000000004ED81B27000000000000605C
+t1322785575
+s24668
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+c000000004ED81B2700000000000065EC
+t1322785575
+s26092
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioFloatLib.LinkFileList
+c000000005082999C000000000000022C
+t1350736284
+s556
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioFloatLib.LinkFileList
+c000000005082999C0000000000000232
+t1350736284
+s562
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLib.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLibX86.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioEngineMixer.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLib.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLibX86.plist
+t2
+s0
+
+N/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioEngineMixer.plist
+t2
+s0
+
+CAnalyze "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp"
+r0
+
+CAnalyze "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c"
+r0
+
+CAnalyze "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp"
+r0
+
+CAnalyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp"
+s372336449.650074
+e372336449.664601
+r1
+xAnalyze
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+oclang: error: the clang compiler does not support '-fapple-kext' for C++ on Darwin/i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Analyze /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp73a1a6416731b641^7022aa416731b641^--1(36%IDEActivityLogAnalyzerWarningMessage2@46"Analyzer skipped this file due to parse errors-372336449#18446744073709551615#0#1(2@73"the clang compiler does not support '-fapple-kext' for C++ on Darwin/i386-372336449#18446744073709551615#0#-1#33"com.apple.dt.IDE.analyzer.warning23%DVTTextDocumentLocation3@22"file://localhost/clang0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---1#33"com.apple.dt.IDE.analyzer.warning3@22"file://localhost/clang0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@132"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/IOAudioEngineMixer.cpp0000000000000000^3077"Analyze IOAudioEngineMixer.cpp    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioEngineMixer.d" --analyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioEngineMixer.plist"36"0A0E1F96-7D05-4687-BB2C-A913B3101BB0-
+
+CAnalyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c"
+s372336449.665959
+e372336449.679609
+r1
+xAnalyze
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+oclang: error: the clang compiler does not support '-fapple-kext' for C++ on Darwin/i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Analyze /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c5ad9aa416731b641^b1fcad416731b641^--1(36%IDEActivityLogAnalyzerWarningMessage2@46"Analyzer skipped this file due to parse errors-372336449#18446744073709551615#0#1(2@73"the clang compiler does not support '-fapple-kext' for C++ on Darwin/i386-372336449#18446744073709551615#0#-1#33"com.apple.dt.IDE.analyzer.warning23%DVTTextDocumentLocation3@22"file://localhost/clang0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---1#33"com.apple.dt.IDE.analyzer.warning3@22"file://localhost/clang0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@143"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLib.c0000000000000000^3097"Analyze PCMBlitterLib/IOAudioBlitterLib.c    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLib.d" --analyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/i386/IOAudioBlitterLib.plist"36"B4613269-1838-4A4C-A2F9-DD4A50540B4D-
+
+CAnalyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp"
+s372336449.681033
+e372336450.605914
+r1
+xAnalyze
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+oclang: error: the clang compiler does not support '-fapple-kext' for C++ on Darwin/i386
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Analyze /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cppef8d79416731b641^b91c9b426731b641^-559"clang: warning: argument unused during compilation: '-force_cpusubtype_ALL'clang: warning: argument unused during compilation: '-fcheck-new'/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp:561:4: warning: Value stored to 'src' is never read                 /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp:562:4: warning: Value stored to 'dst' is never read                                 2 warnings generated.2(35%IDEActivityLogAnalyzerResultMessage2@35"Value stored to 'src' is never read-372336450#18446744073709551615#0#1(38%IDEActivityLogAnalyzerEventStepMessage3@35"Value stored to 'src' is never read-372336450#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^560#3#560#3#18446744073709551615#0#-1(4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^560#10#560#11#18446744073709551615#0#-35"Value stored to 'src' is never read0#1#32"com.apple.dt.IDE.analyzer.result4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^560#3#560#3#18446744073709551615#0#10"Dead store1(4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^560#10#560#11#18446744073709551615#0#-14"Dead increment2@35"Value stored to 'dst' is never read-372336450#18446744073709551615#0#1(3@35"Value stored to 'dst' is never read-372336450#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^561#3#561#3#18446744073709551615#0#-1(4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^561#10#561#12#18446744073709551615#0#-35"Value stored to 'dst' is never read0#1#32"com.apple.dt.IDE.analyzer.result4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^561#3#561#3#18446744073709551615#0#10"Dead store1(4@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^561#10#561#12#18446744073709551615#0#-14"Dead increment0#0#0#-19%DVTDocumentLocation5@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^3130"Analyze PCMBlitterLib/IOAudioBlitterLibX86.cpp    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Xclang -analyzer-output=plist-multi-file -Xclang -analyzer-checker -Xclang security.insecureAPI.UncheckedReturn -Xclang -analyzer-checker -Xclang security.insecureAPI.getpw -Xclang -analyzer-checker -Xclang security.insecureAPI.gets -Xclang -analyzer-checker -Xclang security.insecureAPI.mkstemp -Xclang -analyzer-checker -Xclang security.insecureAPI.mktemp -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.rand -Xclang -analyzer-disable-checker -Xclang security.insecureAPI.strcpy -Xclang -analyzer-checker -Xclang security.insecureAPI.vfork "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLibX86.d" --analyze "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/StaticAnalyzer/normal/x86_64/IOAudioBlitterLibX86.plist"36"DA02BDDF-A7F0-4780-B4F9-2E92FA1A1CA0-
+
+CBuild AST from "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp"
+r0
+
+CBuild AST from "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c"
+r0
+
+CBuild AST from "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp"
+r0
+
+CBuild AST from "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp"
+r0
+
+CBuild AST from "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c"
+r0
+
+CBuild AST from "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7fc1b61cd132b641^11a8c21cd132b641^---0#1#0#--18"Check dependencies36"3EF954A0-943E-4F97-8F0D-18DD2E7C7E56-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322864.957067
+e371322865.105906
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.cb935f5f0ef21b641^601d1bf1ef21b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLib.c0000000000000000^2707"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o PCMBlitterLib/IOAudioBlitterLib.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o"36"5B08B333-929E-472D-92CD-17D558E5FE67-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429084.888180
+e372429085.011000
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c1190e31cd132b641^d9cf021dd132b641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLib.c0000000000000000^2887"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o PCMBlitterLib/IOAudioBlitterLib.c normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLib.o"36"9546ADD7-811A-4228-96B5-DC804AEA9829-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322865.110133
+e371322865.468315
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp1d9420f1ef21b641^7ae477f1ef21b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^2729"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o PCMBlitterLib/IOAudioBlitterLibX86.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o"36"75F0A016-FF46-4E1C-BD36-06E81986095B-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429085.012416
+e372429085.319622
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp4968031dd132b641^f6d1511dd132b641^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^2909"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o PCMBlitterLib/IOAudioBlitterLibX86.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioBlitterLibX86.o"36"3C0818AC-62B6-4BD7-A94A-ECED8C99371E-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322864.743952
+e371322865.375978
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cppd89dbef0ef21b641^8e4060f1ef21b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/IOAudioEngineMixer.cpp0000000000000000^2689"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o IOAudioEngineMixer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o"36"DAE3FA00-C645-40F9-9EC7-3CF4851EE8D9-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429084.764035
+e372429085.265900
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp61c3c31cd132b641^9d12441dd132b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/IOAudioEngineMixer.cpp0000000000000000^2869"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o IOAudioEngineMixer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/i386" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioEngineMixer.o"36"A8B1955F-E14A-47FB-BF6F-0031C445914B-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322864.742763
+e371322864.955719
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c0f5fbef0ef21b641^a1bbf4f0ef21b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLib.c0000000000000000^2730"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o PCMBlitterLib/IOAudioBlitterLib.c normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o"36"99150705-8B2C-4E40-B7D8-97434E76FBFD-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429084.763546
+e372429084.886841
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c79aec31cd132b641^4f24e41cd132b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLib.c0000000000000000^2910"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o PCMBlitterLib/IOAudioBlitterLib.c normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLib.c" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLib.o"36"01EAD3B0-FA1D-45D2-A3A4-6B520480D2E2-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322864.743758
+e371322865.270062
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cppc899bef0ef21b641^663145f1ef21b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^2752"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o PCMBlitterLib/IOAudioBlitterLibX86.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o"36"67EE2D22-F01A-42B7-9C23-65A043305F5A-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429084.763579
+e372429085.153708
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp2eacc31cd132b641^d657271dd132b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp0000000000000000^2932"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o PCMBlitterLib/IOAudioBlitterLibX86.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/PCMBlitterLib/IOAudioBlitterLibX86.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioBlitterLibX86.o"36"3146ADC8-0F5B-40AC-AB2B-8141D94E1B2F-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s371322864.742750
+e371322865.203013
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cppa853bef0ef21b641^6c2534f1ef21b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/IOAudioEngineMixer.cpp0000000000000000^2712"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o IOAudioEngineMixer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.dia" -c "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o"36"EF15B0AD-87F3-4081-894E-1CD80E94D2AF-
+
+CCompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s372429084.763589
+e372429085.127641
+r1
+xCompileC
+xbuild/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fcheck-new'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp1cd3c31cd132b641^e7ab201dd132b641^-66"clang: warning: argument unused during compilation: '-fcheck-new'-0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-%C2%A0FIXED/IOAudioEngineMixer.cpp0000000000000000^2892"CompileC build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o IOAudioEngineMixer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -O2 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/IOAudioFloatLib.hmap" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/include" -I/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources/x86_64" "-I/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/DerivedSources" -Wmost -Wno-four-char-constants -Wno-unknown-pragmas "-F/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -DDEBUG -finline -fno-keep-inline-functions -force_cpusubtype_ALL -fcheck-new -findirect-virtual-calls -static -mkernel -DIOAUDIOFAMILY_SELF_BUILD -MMD -MT dependencies -MF "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.d" --serialize-diagnostics "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.dia" -c "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/IOAudioEngineMixer.cpp" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioEngineMixer.o"36"D85D80C9-415E-47F5-904A-D7AE9DF6015B-
+
+CCreateUniversalBinary "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily-" FIXED/build/Development/libIOAudioFloatLib.a normal "x86_64 i386"
+s371322865.507715
+e371322865.606323
+r1
+xCreateUniversalBinary
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily-
+xFIXED/build/Development/libIOAudioFloatLib.a
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Create universal binary /Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily-f11082f1ef21b641^3f389bf1ef21b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Volumes/MacStuff/Projects/AppleSource%201082/IOAudioFamily-000000000080d041^694"CreateUniversalBinary "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily-" FIXED/build/Development/libIOAudioFloatLib.a normal "x86_64 i386"    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    libtool -static "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a" "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a" -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development/libIOAudioFloatLib.a"36"DE699F82-C8A6-4B8D-82A6-787046553314-
+
+CCreateUniversalBinary "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily-" FIXED/build/Development/libIOAudioFloatLib.a normal "x86_64 i386"
+s372429085.361520
+e372429085.405843
+r1
+xCreateUniversalBinary
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily-
+xFIXED/build/Development/libIOAudioFloatLib.a
+xnormal
+xx86_64 i386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Create universal binary /Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily-9eb45c1dd132b641^97e5671dd132b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Volumes/MacStuff/Projects/IOAuido%20Sleep%20Fix/AppleSource%201082/IOAudioFamily-000000000080d041^784"CreateUniversalBinary "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily-" FIXED/build/Development/libIOAudioFloatLib.a normal "x86_64 i386"    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    libtool -static "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a" "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a" -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development/libIOAudioFloatLib.a"36"AA954E76-8262-4350-8EA7-2FA5B69FB757-
+
+CLibtool "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a" normal i386
+s371322865.475236
+e371322865.500702
+r1
+xLibtool
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a normal i386f1bb79f1ef21b641^8c2d80f1ef21b641^---0#0#0#--774"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a normal i386    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 "-L/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -filelist "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioFloatLib.LinkFileList" -static -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a"36"0DFCA5CE-F64A-4C0A-B5C8-AB40CAB16491-
+
+CLibtool "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a" normal x86_64
+s371322865.276661
+e371322865.327799
+r1
+xLibtool
+x/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a normal x86_64a0fb46f1ef21b641^b3ea53f1ef21b641^---0#0#0#--784"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a normal x86_64    cd "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 "-L/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -filelist "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioFloatLib.LinkFileList" -static -o "/Volumes/MacStuff/Projects/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a"36"5D975532-68E9-4E43-922D-60C1A2BCC749-
+
+CLibtool "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a" normal i386
+s372429085.326436
+e372429085.355023
+r1
+xLibtool
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a normal i3862fa4531dd132b641^dfe15a1dd132b641^---0#0#0#--846"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a normal i386    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 "-L/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -filelist "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/IOAudioFloatLib.LinkFileList" -static -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/i386/libIOAudioFloatLib.a"36"CC050492-484C-4C9E-AD42-71748695F8B4-
+
+CLibtool "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a" normal x86_64
+s372429085.160605
+e372429085.183397
+r1
+xLibtool
+x/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a normal x86_64473c291dd132b641^0af32e1dd132b641^---0#0#0#--856"Libtool build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a normal x86_64    cd "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 "-L/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/Development" -filelist "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/IOAudioFloatLib.LinkFileList" -static -o "/Volumes/MacStuff/Projects/IOAuido Sleep Fix/AppleSource 1082/IOAudioFamily- FIXED/build/IOAudioFamily.build/Development/IOAudioFloatLib.build/Objects-normal/x86_64/libIOAudioFloatLib.a"36"EC68D8C4-1B75-4D93-86B0-943FD07D2C11-
+
